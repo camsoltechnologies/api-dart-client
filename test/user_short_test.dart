@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:sajentclubdevAPI/sajentclubdevAPI.dart';
+import 'package:sajentclubAPI/sajentclubAPI.dart';
 
 // tests for UserShort
 void main() {

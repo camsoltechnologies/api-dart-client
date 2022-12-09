@@ -3,7 +3,7 @@
 //
 
 import 'package:dio/dio.dart';
-import 'package:sajentclubdevAPI/src/auth/auth.dart';
+import 'package:sajentclubAPI/src/auth/auth.dart';
 
 class OAuthInterceptor extends AuthInterceptor {
   final Map<String, String> tokens = {};

@@ -1,10 +1,10 @@
 import 'package:test/test.dart';
-import 'package:sajentclubdevAPI/sajentclubdevAPI.dart';
+import 'package:sajentclubAPI/sajentclubAPI.dart';
 
 
 /// tests for UserApi
 void main() {
-  final instance = SajentclubdevAPI().getUserApi();
+  final instance = SajentclubAPI().getUserApi();
 
   group(UserApi, () {
     // Accept friend request from other user

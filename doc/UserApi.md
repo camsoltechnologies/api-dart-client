@@ -1,8 +1,8 @@
-# sajentclubdevAPI.api.UserApi
+# sajentclubAPI.api.UserApi
 
 ## Load the API package
 ```dart
-import 'package:sajentclubdevAPI/api.dart';
+import 'package:sajentclubAPI/api.dart';
 ```
 
 All URIs are relative to *https://us-central1-sajent-club.cloudfunctions.net/dev*
@@ -27,12 +27,12 @@ Accept friend request from other user to the authorized user
 
 ### Example
 ```dart
-import 'package:sajentclubdevAPI/api.dart';
+import 'package:sajentclubAPI/api.dart';
 // TODO Configure HTTP basic authorization: IdToken
 //defaultApiClient.getAuthentication<HttpBasicAuth>('IdToken').username = 'YOUR_USERNAME'
 //defaultApiClient.getAuthentication<HttpBasicAuth>('IdToken').password = 'YOUR_PASSWORD';
 
-final api = SajentclubdevAPI().getUserApi();
+final api = SajentclubAPI().getUserApi();
 final BodyUID bodyUID = ; // BodyUID | Adding new user as friend
 
 try {
@@ -73,12 +73,12 @@ Delete the full user account and its profile picture immediately
 
 ### Example
 ```dart
-import 'package:sajentclubdevAPI/api.dart';
+import 'package:sajentclubAPI/api.dart';
 // TODO Configure HTTP basic authorization: IdToken
 //defaultApiClient.getAuthentication<HttpBasicAuth>('IdToken').username = 'YOUR_USERNAME'
 //defaultApiClient.getAuthentication<HttpBasicAuth>('IdToken').password = 'YOUR_PASSWORD';
 
-final api = SajentclubdevAPI().getUserApi();
+final api = SajentclubAPI().getUserApi();
 final String uid = b8uI870tUIx6i77GbyLS; // String | user id of the user to delete (same as authorized user)
 
 try {
@@ -119,12 +119,12 @@ This can only be done by the logged-in user.
 
 ### Example
 ```dart
-import 'package:sajentclubdevAPI/api.dart';
+import 'package:sajentclubAPI/api.dart';
 // TODO Configure HTTP basic authorization: IdToken
 //defaultApiClient.getAuthentication<HttpBasicAuth>('IdToken').username = 'YOUR_USERNAME'
 //defaultApiClient.getAuthentication<HttpBasicAuth>('IdToken').password = 'YOUR_PASSWORD';
 
-final api = SajentclubdevAPI().getUserApi();
+final api = SajentclubAPI().getUserApi();
 
 try {
     final response = api.getFriends();
@@ -161,12 +161,12 @@ This can only be done by the logged-in user.
 
 ### Example
 ```dart
-import 'package:sajentclubdevAPI/api.dart';
+import 'package:sajentclubAPI/api.dart';
 // TODO Configure HTTP basic authorization: IdToken
 //defaultApiClient.getAuthentication<HttpBasicAuth>('IdToken').username = 'YOUR_USERNAME'
 //defaultApiClient.getAuthentication<HttpBasicAuth>('IdToken').password = 'YOUR_PASSWORD';
 
-final api = SajentclubdevAPI().getUserApi();
+final api = SajentclubAPI().getUserApi();
 final String uid = b8uI870tUIx6i77GbyLS; // String | user id of the target user (friend or the logged-in user)
 
 try {
@@ -207,12 +207,12 @@ Revoke friend request to other user from the authorized user sent before
 
 ### Example
 ```dart
-import 'package:sajentclubdevAPI/api.dart';
+import 'package:sajentclubAPI/api.dart';
 // TODO Configure HTTP basic authorization: IdToken
 //defaultApiClient.getAuthentication<HttpBasicAuth>('IdToken').username = 'YOUR_USERNAME'
 //defaultApiClient.getAuthentication<HttpBasicAuth>('IdToken').password = 'YOUR_PASSWORD';
 
-final api = SajentclubdevAPI().getUserApi();
+final api = SajentclubAPI().getUserApi();
 final String uid = b8uI870tUIx6i77GbyLS; // String | user id of the friends profile
 
 try {
@@ -253,12 +253,12 @@ This can only be done by the logged-in user.
 
 ### Example
 ```dart
-import 'package:sajentclubdevAPI/api.dart';
+import 'package:sajentclubAPI/api.dart';
 // TODO Configure HTTP basic authorization: IdToken
 //defaultApiClient.getAuthentication<HttpBasicAuth>('IdToken').username = 'YOUR_USERNAME'
 //defaultApiClient.getAuthentication<HttpBasicAuth>('IdToken').password = 'YOUR_PASSWORD';
 
-final api = SajentclubdevAPI().getUserApi();
+final api = SajentclubAPI().getUserApi();
 final String username = someUserName; // String | username of the target user
 
 try {
@@ -299,12 +299,12 @@ Send friend request to other user from the authorized user
 
 ### Example
 ```dart
-import 'package:sajentclubdevAPI/api.dart';
+import 'package:sajentclubAPI/api.dart';
 // TODO Configure HTTP basic authorization: IdToken
 //defaultApiClient.getAuthentication<HttpBasicAuth>('IdToken').username = 'YOUR_USERNAME'
 //defaultApiClient.getAuthentication<HttpBasicAuth>('IdToken').password = 'YOUR_PASSWORD';
 
-final api = SajentclubdevAPI().getUserApi();
+final api = SajentclubAPI().getUserApi();
 final BodyUID bodyUID = ; // BodyUID | Adding new user as friend
 
 try {

@@ -4,20 +4,20 @@
 
 import 'package:dio/dio.dart';
 import 'package:built_value/serializer.dart';
-import 'package:sajentclubdevAPI/src/serializers.dart';
-import 'package:sajentclubdevAPI/src/auth/api_key_auth.dart';
-import 'package:sajentclubdevAPI/src/auth/basic_auth.dart';
-import 'package:sajentclubdevAPI/src/auth/bearer_auth.dart';
-import 'package:sajentclubdevAPI/src/auth/oauth.dart';
-import 'package:sajentclubdevAPI/src/api/user_api.dart';
+import 'package:sajentclubAPI/src/serializers.dart';
+import 'package:sajentclubAPI/src/auth/api_key_auth.dart';
+import 'package:sajentclubAPI/src/auth/basic_auth.dart';
+import 'package:sajentclubAPI/src/auth/bearer_auth.dart';
+import 'package:sajentclubAPI/src/auth/oauth.dart';
+import 'package:sajentclubAPI/src/api/user_api.dart';
 
-class SajentclubdevAPI {
+class SajentclubAPI {
   static const String basePath = r'https://us-central1-sajent-club.cloudfunctions.net/dev';
 
   final Dio dio;
   final Serializers serializers;
 
-  SajentclubdevAPI({
+  SajentclubAPI({
     Dio? dio,
     Serializers? serializers,
     String? basePathOverride,

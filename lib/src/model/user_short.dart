@@ -2,7 +2,7 @@
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
 
-import 'package:sajentclubdevAPI/src/model/privacy_setting.dart';
+import 'package:sajentclubAPI/src/model/privacy_setting.dart';
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
 

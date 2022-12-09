@@ -4,7 +4,7 @@
 
 
 import 'package:dio/dio.dart';
-import 'package:sajentclubdevAPI/src/auth/auth.dart';
+import 'package:sajentclubAPI/src/auth/auth.dart';
 
 class ApiKeyAuthInterceptor extends AuthInterceptor {
   final Map<String, String> apiKeys = {};

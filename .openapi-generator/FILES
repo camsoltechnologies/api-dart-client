@@ -14,7 +14,7 @@ doc/UserApi.md
 doc/UserFullOther.md
 doc/UserFullSelf.md
 doc/UserShort.md
-lib/sajentclubdevAPI.dart
+lib/sajentclubAPI.dart
 lib/src/api.dart
 lib/src/api/user_api.dart
 lib/src/api_util.dart

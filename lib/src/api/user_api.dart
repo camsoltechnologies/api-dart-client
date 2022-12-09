@@ -8,12 +8,12 @@ import 'package:built_value/serializer.dart';
 import 'package:dio/dio.dart';
 
 import 'package:built_collection/built_collection.dart';
-import 'package:sajentclubdevAPI/src/api_util.dart';
-import 'package:sajentclubdevAPI/src/model/body_uid.dart';
-import 'package:sajentclubdevAPI/src/model/error_response.dart';
-import 'package:sajentclubdevAPI/src/model/success_response.dart';
-import 'package:sajentclubdevAPI/src/model/user_full_other.dart';
-import 'package:sajentclubdevAPI/src/model/user_short.dart';
+import 'package:sajentclubAPI/src/api_util.dart';
+import 'package:sajentclubAPI/src/model/body_uid.dart';
+import 'package:sajentclubAPI/src/model/error_response.dart';
+import 'package:sajentclubAPI/src/model/success_response.dart';
+import 'package:sajentclubAPI/src/model/user_full_other.dart';
+import 'package:sajentclubAPI/src/model/user_short.dart';
 
 class UserApi {
 

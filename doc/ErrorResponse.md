@@ -1,8 +1,8 @@
-# sajentclubdevAPI.model.ErrorResponse
+# sajentclubAPI.model.ErrorResponse
 
 ## Load the model package
 ```dart
-import 'package:sajentclubdevAPI/api.dart';
+import 'package:sajentclubAPI/api.dart';
 ```
 
 ## Properties

@@ -1,8 +1,8 @@
-# sajentclubdevAPI.model.JewelrySwipeItem
+# sajentclubAPI.model.JewelrySwipeItem
 
 ## Load the model package
 ```dart
-import 'package:sajentclubdevAPI/api.dart';
+import 'package:sajentclubAPI/api.dart';
 ```
 
 ## Properties

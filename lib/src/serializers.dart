@@ -9,20 +9,20 @@ import 'package:built_value/json_object.dart';
 import 'package:built_value/serializer.dart';
 import 'package:built_value/standard_json_plugin.dart';
 import 'package:built_value/iso_8601_date_time_serializer.dart';
-import 'package:sajentclubdevAPI/src/date_serializer.dart';
-import 'package:sajentclubdevAPI/src/model/date.dart';
+import 'package:sajentclubAPI/src/date_serializer.dart';
+import 'package:sajentclubAPI/src/model/date.dart';
 
-import 'package:sajentclubdevAPI/src/model/body_uid.dart';
-import 'package:sajentclubdevAPI/src/model/error_response.dart';
-import 'package:sajentclubdevAPI/src/model/error_type.dart';
-import 'package:sajentclubdevAPI/src/model/jewelry_swipe_item.dart';
-import 'package:sajentclubdevAPI/src/model/other_user_jewelry_item.dart';
-import 'package:sajentclubdevAPI/src/model/privacy_setting.dart';
-import 'package:sajentclubdevAPI/src/model/success_response.dart';
-import 'package:sajentclubdevAPI/src/model/swipe_data.dart';
-import 'package:sajentclubdevAPI/src/model/user_full_other.dart';
-import 'package:sajentclubdevAPI/src/model/user_full_self.dart';
-import 'package:sajentclubdevAPI/src/model/user_short.dart';
+import 'package:sajentclubAPI/src/model/body_uid.dart';
+import 'package:sajentclubAPI/src/model/error_response.dart';
+import 'package:sajentclubAPI/src/model/error_type.dart';
+import 'package:sajentclubAPI/src/model/jewelry_swipe_item.dart';
+import 'package:sajentclubAPI/src/model/other_user_jewelry_item.dart';
+import 'package:sajentclubAPI/src/model/privacy_setting.dart';
+import 'package:sajentclubAPI/src/model/success_response.dart';
+import 'package:sajentclubAPI/src/model/swipe_data.dart';
+import 'package:sajentclubAPI/src/model/user_full_other.dart';
+import 'package:sajentclubAPI/src/model/user_full_self.dart';
+import 'package:sajentclubAPI/src/model/user_short.dart';
 
 part 'serializers.g.dart';
 
