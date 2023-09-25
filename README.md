@@ -98,5 +98,5 @@ Class | Method | HTTP request | Description
 
 ## Author
 
-lennard@app-innovators.de
+nkoa.christophe@camsol.tech | lennard@app-innovators.de
 
