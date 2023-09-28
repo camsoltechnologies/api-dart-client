@@ -64,28 +64,29 @@ All URIs are relative to *https://us-central1-sajent-club.cloudfunctions.net/dev
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-[*UserApi*](doc/UserApi.md) | [**acceptFriendRequest**](doc/UserApi.md#acceptfriendrequest) | **POST** /acceptFriendRequest/ | Accept friend request from other user
-[*UserApi*](doc/UserApi.md) | [**deleteUserAccount**](doc/UserApi.md#deleteuseraccount) | **DELETE** /deleteUserAccount/ | Delete the full user account and its profile picture immediately (currently logged-in)
-[*UserApi*](doc/UserApi.md) | [**getFriends**](doc/UserApi.md#getfriends) | **GET** /getFriends/ | Get all friends from user
-[*UserApi*](doc/UserApi.md) | [**getProfileById**](doc/UserApi.md#getprofilebyid) | **GET** /getProfileById/ | Get the profile data of other people
-[*UserApi*](doc/UserApi.md) | [**revokeFriendRequest**](doc/UserApi.md#revokefriendrequest) | **DELETE** /revokeFriendRequest/ | Revoke friend request to other user sent before
-[*UserApi*](doc/UserApi.md) | [**searchUser**](doc/UserApi.md#searchuser) | **GET** /searchUser/ | Search user by username
-[*UserApi*](doc/UserApi.md) | [**sendFriendRequest**](doc/UserApi.md#sendfriendrequest) | **POST** /sendFriendRequest/ | Send friend request to other user
+[*UserApi*](doc\UserApi.md) | [**acceptFriendRequest**](doc\UserApi.md#acceptfriendrequest) | **POST** /acceptFriendRequest/ | Accept friend request from other user
+[*UserApi*](doc\UserApi.md) | [**deleteUserAccount**](doc\UserApi.md#deleteuseraccount) | **DELETE** /deleteUserAccount/ | Delete the full user account and its profile picture immediately (currently logged-in)
+[*UserApi*](doc\UserApi.md) | [**getFriends**](doc\UserApi.md#getfriends) | **GET** /getFriends/ | Get all friends from user
+[*UserApi*](doc\UserApi.md) | [**getFriendsByUserId**](doc\UserApi.md#getfriendsbyuserid) | **GET** /getFriendsByUserId/ | Get the friends data of other people
+[*UserApi*](doc\UserApi.md) | [**getProfileById**](doc\UserApi.md#getprofilebyid) | **GET** /getProfileById/ | Get the profile data of other people
+[*UserApi*](doc\UserApi.md) | [**revokeFriendRequest**](doc\UserApi.md#revokefriendrequest) | **DELETE** /revokeFriendRequest/ | Revoke friend request to other user sent before
+[*UserApi*](doc\UserApi.md) | [**searchUser**](doc\UserApi.md#searchuser) | **GET** /searchUser/ | Search user by username
+[*UserApi*](doc\UserApi.md) | [**sendFriendRequest**](doc\UserApi.md#sendfriendrequest) | **POST** /sendFriendRequest/ | Send friend request to other user
 
 
 ## Documentation For Models
 
- - [BodyUID](doc/BodyUID.md)
- - [ErrorResponse](doc/ErrorResponse.md)
- - [ErrorType](doc/ErrorType.md)
- - [JewelrySwipeItem](doc/JewelrySwipeItem.md)
- - [OtherUserJewelryItem](doc/OtherUserJewelryItem.md)
- - [PrivacySetting](doc/PrivacySetting.md)
- - [SuccessResponse](doc/SuccessResponse.md)
- - [SwipeData](doc/SwipeData.md)
- - [UserFullOther](doc/UserFullOther.md)
- - [UserFullSelf](doc/UserFullSelf.md)
- - [UserShort](doc/UserShort.md)
+ - [BodyUID](doc\BodyUID.md)
+ - [ErrorResponse](doc\ErrorResponse.md)
+ - [ErrorType](doc\ErrorType.md)
+ - [JewelrySwipeItem](doc\JewelrySwipeItem.md)
+ - [OtherUserJewelryItem](doc\OtherUserJewelryItem.md)
+ - [PrivacySetting](doc\PrivacySetting.md)
+ - [SuccessResponse](doc\SuccessResponse.md)
+ - [SwipeData](doc\SwipeData.md)
+ - [UserFullOther](doc\UserFullOther.md)
+ - [UserFullSelf](doc\UserFullSelf.md)
+ - [UserShort](doc\UserShort.md)
 
 
 ## Documentation For Authorization
