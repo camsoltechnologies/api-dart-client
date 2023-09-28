@@ -12,6 +12,7 @@ Method | HTTP request | Description
 [**acceptFriendRequest**](UserApi.md#acceptfriendrequest) | **POST** /acceptFriendRequest/ | Accept friend request from other user
 [**deleteUserAccount**](UserApi.md#deleteuseraccount) | **DELETE** /deleteUserAccount/ | Delete the full user account and its profile picture immediately (currently logged-in)
 [**getFriends**](UserApi.md#getfriends) | **GET** /getFriends/ | Get all friends from user
+[**getFriendsByUserId**](UserApi.md#getfriendsbyuserid) | **GET** /getFriendsByUserId/ | Get the friends data of other people
 [**getProfileById**](UserApi.md#getprofilebyid) | **GET** /getProfileById/ | Get the profile data of other people
 [**revokeFriendRequest**](UserApi.md#revokefriendrequest) | **DELETE** /revokeFriendRequest/ | Revoke friend request to other user sent before
 [**searchUser**](UserApi.md#searchuser) | **GET** /searchUser/ | Search user by username
@@ -136,6 +137,52 @@ try {
 
 ### Parameters
 This endpoint does not need any parameter.
+
+### Return type
+
+[**BuiltList&lt;UserShort&gt;**](UserShort.md)
+
+### Authorization
+
+[IdToken](../README.md#IdToken)
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **getFriendsByUserId**
+> BuiltList<UserShort> getFriendsByUserId(uid)
+
+Get the friends data of other people
+
+This can only be done by the logged-in user.
+
+### Example
+```dart
+import 'package:sajentclubAPI/api.dart';
+// TODO Configure HTTP basic authorization: IdToken
+//defaultApiClient.getAuthentication<HttpBasicAuth>('IdToken').username = 'YOUR_USERNAME'
+//defaultApiClient.getAuthentication<HttpBasicAuth>('IdToken').password = 'YOUR_PASSWORD';
+
+final api = SajentclubAPI().getUserApi();
+final String uid = b8uI870tUIx6i77GbyLS; // String | user id of the target user (friend or the logged-in user)
+
+try {
+    final response = api.getFriendsByUserId(uid);
+    print(response);
+} catch on DioError (e) {
+    print('Exception when calling UserApi->getFriendsByUserId: $e\n');
+}
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **uid** | **String**| user id of the target user (friend or the logged-in user) | 
 
 ### Return type
 

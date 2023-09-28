@@ -34,6 +34,15 @@ void main() {
       // TODO
     });
 
+    // Get the friends data of other people
+    //
+    // This can only be done by the logged-in user.
+    //
+    //Future<BuiltList<UserShort>> getFriendsByUserId(String uid) async
+    test('test getFriendsByUserId', () async {
+      // TODO
+    });
+
     // Get the profile data of other people
     //
     // This can only be done by the logged-in user.
